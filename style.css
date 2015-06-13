@@ -1,0 +1,169 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+    margin:3em;
+    background:#666;
+    color:#fff;
+}
+
+
+
+p {
+    font-size:70%;
+    font-weight:normal;
+}
+
+ul,li {
+    list-style:none;
+}
+
+ul {
+    overflow:hidden;
+    padding:1.5em;
+}
+
+ul li a {
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:9em;
+    width:9em;
+    padding:0.5em;
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+}
+
+ul li {
+    margin:1em;
+    float:left;
+}
+
+ul li h2 {
+    font-size:85%;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+
+ul li p {
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:160%;
+}
+
+ul li a {
+    -webkit-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    -moz-transform:rotate(-6deg);
+}
+
+ul li:nth-child(even) a {
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background:#cfc;
+}
+
+ul li:nth-child(3n) a {
+    -o-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+    background:#ccf;
+}
+
+
+ul li:nth-child(5n) a {
+    -o-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+}
+
+
+
+ul li a:hover,ul li a:focus {
+    box-shadow:8px 8px 5px rgba(0,0,0,.7);
+    -moz-box-shadow:8px px 5px rgba(0,0,0,.7);
+    -webkit-box-shadow: 8px 8px 5px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position:relative;
+    z-index:5;
+}
+
+
+
+ol {
+    text-align:center;
+}
+
+
+
+ol li {
+    display:inline;
+    padding-right:1em;
+}
+
+
+
+ol li a {
+    color:#fff;
+}
+
+
+
+li p.title {
+    font-size: 160%;
+    text-decoration: underline;
+}
+
+
+
+li p.small {
+    font-size: 150%;
+}
+
+
+
+li p.smaller {
+    font-size: 140%;
+}
+
+
+
+li p.very-small, li p.very-small-askew {
+    font-size: 80%;
+}
+
+
+
+li p.very-small-askew {
+    margin-top: 10px;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+
+}
+
+#fork {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    width: 149px;
+    height: 149px;
+}
