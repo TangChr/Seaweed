@@ -11,20 +11,15 @@ body {
     color:#fff;
 }
 
-
-
-p {
-    font-size:70%;
-    font-weight:normal;
-}
-
-ul,li {
-    list-style:none;
-}
-
 ul {
     overflow:hidden;
     padding:1.5em;
+}
+
+ul li {
+    list-style:none;
+	margin:1em;
+    float:left;
 }
 
 ul li a {
@@ -43,19 +38,18 @@ ul li a {
     -webkit-transition:-webkit-transform .15s linear;
 }
 
-ul li {
-    margin:1em;
-    float:left;
+ul li p,
+ul li h2 {
+	font-family:"Reenie Beanie",arial,sans-serif;
+	font-weight:normal;
 }
 
 ul li h2 {
-    font-size:85%;
-    font-weight:bold;
-    padding-bottom:10px;
+    font-size: 160%;
+    text-decoration: underline;
 }
 
 ul li p {
-    font-family:"Reenie Beanie",arial,sans-serif;
     font-size:160%;
 }
 
@@ -83,7 +77,6 @@ ul li:nth-child(3n) a {
     background:#ccf;
 }
 
-
 ul li:nth-child(5n) a {
     -o-transform:rotate(5deg);
     -webkit-transform:rotate(5deg);
@@ -92,9 +85,8 @@ ul li:nth-child(5n) a {
     top:-10px;
 }
 
-
-
-ul li a:hover,ul li a:focus {
+ul li a:hover,
+ul li a:focus {
     box-shadow:8px 8px 5px rgba(0,0,0,.7);
     -moz-box-shadow:8px px 5px rgba(0,0,0,.7);
     -webkit-box-shadow: 8px 8px 5px rgba(0,0,0,.7);
@@ -105,65 +97,26 @@ ul li a:hover,ul li a:focus {
     z-index:5;
 }
 
-
-
-ol {
-    text-align:center;
-}
-
-
-
-ol li {
-    display:inline;
-    padding-right:1em;
-}
-
-
-
-ol li a {
-    color:#fff;
-}
-
-
-
-li p.title {
+ul li p.title {
     font-size: 160%;
     text-decoration: underline;
 }
 
-
-
-li p.small {
-    font-size: 150%;
-}
-
-
-
-li p.smaller {
+ul li p.small {
     font-size: 140%;
 }
 
 
 
-li p.very-small, li p.very-small-askew {
-    font-size: 80%;
+ul li p.smaller {
+    font-size: 125%;
 }
 
-
-
-li p.very-small-askew {
+ul li p.small-askew {
+	font-size: 80%;
     margin-top: 10px;
     transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
     -moz-transform: rotate(10deg);
 
-}
-
-#fork {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 0;
-    width: 149px;
-    height: 149px;
 }
