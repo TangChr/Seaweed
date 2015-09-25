@@ -1,6 +1,6 @@
-tangchr.github.io ([seaweed.dk](http://seaweed.dk))
+[Seaweed.dk](http://seaweed.dk)
 =======================
-Clone of [tangc.dk](http://tangc.dk)
+Personal "hub"
 
 License
 -------
