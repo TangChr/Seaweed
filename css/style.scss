@@ -1,20 +1,25 @@
 ---
 ---
+@import "colors", "func";
+
+@font-face {
+    font-family: "Reenie Beanie";
+    src: url("/font/beanie.woff") format('woff');
+}
+
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+	font-size: 100%;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:100%;
     margin:3em;
-    background:#666;
-    color:#fff;
+    background: #666;
 }
 
 ul {
-    overflow:hidden;
+    overflow: hidden;
     padding:1.5em;
 }
 
@@ -26,7 +31,6 @@ ul li {
 	a {
 		text-decoration:none;
 		color:#000;
-		background:#ffc;
 		display:block;
 		height:9em;
 		width:9em;
@@ -37,13 +41,39 @@ ul li {
 		-moz-transition:-moz-transform .15s linear;
 		-o-transition:-o-transform .15s linear;
 		-webkit-transition:-webkit-transform .15s linear;
-		-webkit-transform: rotate(-6deg);
-		-o-transform: rotate(-6deg);
-		-moz-transform:rotate(-6deg);
+		@include note-style(-6deg, 0, $color1);
+	}
+	
+	&:nth-child(even) a {
+		@include note-style(4deg, 5px, $color2);
 	}
 
-	p,
-	h2 {
+	&:nth-child(3n) a {
+		@include note-style(-3deg, -5px, $color3);
+	}
+
+	&:nth-child(5n) a {
+		@include note-style(5deg, -10px, $color5);
+	}
+	
+	&:nth-child(7n) a {
+		background: $color7;
+	}
+	
+	a:hover,
+	a:focus {
+		box-shadow:8px 8px 5px rgba(0,0,0,.7);
+		-moz-box-shadow:8px px 5px rgba(0,0,0,.7);
+		-webkit-box-shadow: 8px 8px 5px rgba(0,0,0,.7);
+		-webkit-transform: scale(1.25);
+		-moz-transform: scale(1.25);
+		-o-transform: scale(1.25);
+		position:relative;
+		z-index:5;
+	}
+	
+	h2,
+	p {
 		font-family:"Reenie Beanie",arial,sans-serif;
 		font-weight:normal;
 		font-size: 160%;
@@ -60,7 +90,7 @@ ul li {
 	p.smaller {
 		font-size: 125%;
 	}
-
+	
 	p.small-askew {
 		font-size: 80%;
 		margin-top: 10px;
@@ -69,43 +99,4 @@ ul li {
 		-moz-transform: rotate(10deg);
 
 	}
-}
-
-
-ul li:nth-child(even) a {
-    -o-transform:rotate(4deg);
-    -webkit-transform:rotate(4deg);
-    -moz-transform:rotate(4deg);
-    position:relative;
-    top:5px;
-    background:#cfc;
-}
-
-ul li:nth-child(3n) a {
-    -o-transform:rotate(-3deg);
-    -webkit-transform:rotate(-3deg);
-    -moz-transform:rotate(-3deg);
-    position:relative;
-    top:-5px;
-    background:#ccf;
-}
-
-ul li:nth-child(5n) a {
-    -o-transform:rotate(5deg);
-    -webkit-transform:rotate(5deg);
-    -moz-transform:rotate(5deg);
-    position:relative;
-    top:-10px;
-}
-
-ul li a:hover,
-ul li a:focus {
-	box-shadow:8px 8px 5px rgba(0,0,0,.7);
-	-moz-box-shadow:8px px 5px rgba(0,0,0,.7);
-	-webkit-box-shadow: 8px 8px 5px rgba(0,0,0,.7);
-	-webkit-transform: scale(1.25);
-	-moz-transform: scale(1.25);
-	-o-transform: scale(1.25);
-	position:relative;
-	z-index:5;
 }
