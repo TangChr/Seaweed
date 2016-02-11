@@ -11,6 +11,8 @@ author:
 # Build settings
 baseurl: /
 destination: _site
+permalink: pretty
+highlighter: rouge
 kramdown:
   input: GFM
   

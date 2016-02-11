@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Reenie Beanie";
-    src: url("/font/beanie.woff") format('woff');
+    src: url("{{ site.baseurl }}assets/fonts/beanie.woff") format('woff');
 }
 
 * {
