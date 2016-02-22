@@ -1,1 +1,1 @@
-bundler exec jekyll serve
+jekyll serve --config _config.yml,_config_local.yml

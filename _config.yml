@@ -1,20 +1,16 @@
-# Site Information
+# Site
 title: "seaweed.dk"
-url: http://seaweed.dk
+description: "Personal Hub"
 keywords: "christian tang, tang, tangc, christensen, cv, curriculum vitae, curriculum-vitae, google, google+, linkedin, twitter, instagram, github, weblog, blog"
+
+url: http://seaweed.dk
+baseurl: '/'
 
 # Author
 author:
   name: "Christian Tang Christensen"
-  uri: http://seaweed.dk
-
-# Build settings
-baseurl: /
-destination: _site
-permalink: pretty
-highlighter: rouge
-kramdown:
-  input: GFM
   
+environment: production
+
 # Excludes
 exclude: [CNAME, Gemfile, Gemfile.lock, serve.cmd, LICENSE, README.md]
