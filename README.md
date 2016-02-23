@@ -1,4 +1,4 @@
-[Seaweed.dk](http://seaweed.dk)
+[seaweed.dk](http://seaweed.dk)
 =======================
 Social "Hub" based on [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
 
