@@ -1,6 +1,6 @@
 # Site
 title: "seaweed.dk"
-description: "Social Hub"
+description: "Personal Hub"
 keywords: "christian tang, tang, tangc, christensen, cv, curriculum vitae, curriculum-vitae, google, google+, linkedin, twitter, instagram, github, weblog, blog"
 
 url: http://seaweed.dk
@@ -9,6 +9,7 @@ baseurl: '/'
 # Author
 author:
   name: "Christian Tang Christensen"
+  twitter: TangChr
 
 # Build
 environment: production
