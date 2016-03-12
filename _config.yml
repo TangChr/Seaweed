@@ -9,7 +9,8 @@ baseurl: '/'
 # Author
 author:
   name: "Christian Tang Christensen"
-  
+
+# Build
 environment: production
 
 # Excludes
