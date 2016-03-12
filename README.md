@@ -1,5 +1,7 @@
 [seaweed.dk](http://seaweed.dk)
 =======================
+[![Build Status](https://travis-ci.org/TangChr/seaweed.dk.svg?branch=master)](https://travis-ci.org/TangChr/seaweed.dk)
+
 Social "Hub" based on [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
 
 #### License
