@@ -1,0 +1,23 @@
+- title:  Skrevetudiet.dk
+  url:    http://skrevetudiet.dk
+  header: Danish Weblog
+  
+- title:  GitHub
+  url:    https://github.com/TangChr
+  header: "TangChr"
+  lines:  ["Code Repositories","Code Contributions","Organizations"]
+  
+- title:  Google
+  url:    https://plus.google.com/+ChristianTangChristensenProfile
+  header: Google+
+  lines:  ["Profile"]
+  rel:    me
+  
+- title:  About.me
+  url:    https://about.me/tangchr
+  header: Profile
+  
+- title:  Steam
+  url:    http://steamcommunity.com/id/mekhlin
+  header: "Mekhlin"
+  lines:  ["Achiements","Games","Friends"]

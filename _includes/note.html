@@ -1,0 +1,8 @@
+
+<li>
+    <a href="{{include.content.url}}"{% if include.content.rel %} rel="{{include.content.rel}}"{% endif %}>
+        <h2>{{include.content.title}}</h2>
+        {% if include.content.header %}<p>{{include.content.header}}</p>{% endif %}{% for line in include.content.lines %}
+        <p class="small">{{line}}</p>{% endfor %}
+    </a>
+</li>

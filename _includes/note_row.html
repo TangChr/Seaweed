@@ -1,0 +1,4 @@
+<ul class="sticky-color-new">{% if include.dummies %}
+{% for d in (1..include.dummies) %}<li style="display:none;"><a></a></li>
+{% endfor %}{% endif %}{% for note in include.notes %}{% include note.html content=note %}{% endfor %}
+</ul>

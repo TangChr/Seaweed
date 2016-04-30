@@ -1,0 +1,22 @@
+- title:  christiantang.dk
+  url:    http://christiantang.dk
+  lines:  ["Curriculum Vitae"]
+  
+- title:  Twitter
+  url:    https://twitter.com/TangChr
+  header: "@TangChr"
+  lines:  ["Primary Twitter account"]
+  
+- title:  Facebook
+  url:    https://www.facebook.com/profile.php?id=1323079301
+  header: Profile
+  lines:  ["Photos"]
+  
+- title:  LinkedIn
+  url:    http://linkedin.com/in/christiantang
+  lines:  ["Professional Profile","Education","Work","Skills"]
+  
+- title:  Instagram
+  url:    http://instagram.com/tangchr
+  header: "@tangchr"
+  lines:  ["Photos"]
