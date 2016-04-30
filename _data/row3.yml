@@ -1,0 +1,24 @@
+- title:  Gravatar
+  url:    https://en.gravatar.com/tangchr
+  header: Profile
+  lines:  ["Avatar Photos"]
+  
+- title:  "Will it Compile?"
+  url:    https://willitcompile.net
+  header: "willitcompile.net"
+  lines:  ["Weblog about programming"]
+  
+- title:  Twitter
+  url:    https://twitter.com/Mekhlin
+  header: "@Mekhlin"
+  lines:  ["Secondary Twitter account about gaming"]
+  
+- title:  Wikipedia
+  url:    https://en.wikipedia.org/wiki/Special:Contributions/TangChr
+  header: TangChr
+  lines:  ["Contributions"]
+        
+- title:  9GAG
+  url:    http://9gag.com/u/tangchr
+  header: tangchr
+  lines: ["Photos","Likes","Comments"]
