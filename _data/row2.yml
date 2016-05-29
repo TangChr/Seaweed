@@ -1,3 +1,8 @@
+- title:  "Will it Compile?"
+  url:    http://willitcompile.net
+  header: "willitcompile.net"
+  lines:  ["Weblog about programming"]
+
 - title:  Skrevetudiet.dk
   url:    http://skrevetudiet.dk
   header: Danish Weblog
@@ -6,12 +11,6 @@
   url:    https://github.com/TangChr
   header: "TangChr"
   lines:  ["Code Repositories","Code Contributions","Organizations"]
-  
-- title:  Google
-  url:    https://plus.google.com/+ChristianTangChristensenProfile
-  header: Google+
-  lines:  ["Profile"]
-  rel:    me
   
 - title:  About.me
   url:    https://about.me/tangchr

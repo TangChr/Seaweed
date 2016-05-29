@@ -20,3 +20,9 @@
   url:    http://instagram.com/tangchr
   header: "@tangchr"
   lines:  ["Photos"]
+  
+- title:  Google
+  url:    https://plus.google.com/+ChristianTangChristensenProfile
+  header: Google+
+  lines:  ["Profile"]
+  rel:    me
