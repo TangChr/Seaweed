@@ -1,24 +1,26 @@
-- title:  Twitter
+- name:   Twitter
   url:    https://twitter.com/Mekhlin
   header: "@Mekhlin"
   lines:  ["Secondary Twitter account about gaming"]
   
-- title:  TMDb
+- name:   TMDb
+  title:  "The Movie Database"
   url:    https://www.themoviedb.org/account/TangChr
   header: TangChr
   lines:  ["Lists", "Reviews"]
   
-- title:  IMDb
+- name:   IMDb
+  title:  "Internet Movie Database"
   url:    http://www.imdb.com/user/ur6002114/ratings
   header: TangChr
   lines:  ["Ratings"]
   
-- title:  Wikipedia
+- name:   Wikipedia
   url:    https://en.wikipedia.org/wiki/Special:Contributions/TangChr
   header: TangChr
   lines:  ["Contributions"]
         
-- title:  9GAG
+- name:   9GAG
   url:    http://9gag.com/u/tangchr
   header: tangchr
   lines: ["Photos","Likes","Comments"]
