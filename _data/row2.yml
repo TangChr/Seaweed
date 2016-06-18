@@ -1,3 +1,8 @@
+- name:   Twitter
+  url:    https://twitter.com/Mekhlin
+  header: "@Mekhlin"
+  lines:  ["Secondary Twitter account about gaming"]
+
 - name:   "Will It Compile?"
   url:    http://willitcompile.net
   header: "willitcompile.net"
@@ -16,7 +21,6 @@
   url:    https://about.me/tangchr
   header: Profile
   
-- name:   Steam
-  url:    http://steamcommunity.com/id/mekhlin
-  header: "Mekhlin"
-  lines:  ["Achiements","Games","Friends"]
+- name:   Snapchat
+  url:    https://www.snapchat.com/add/tangchr
+  header: "@tangchr"
