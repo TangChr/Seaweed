@@ -1,26 +1,23 @@
-- name:   Twitter
-  url:    https://twitter.com/Mekhlin
-  header: "@Mekhlin"
-  lines:  ["Secondary Twitter account about gaming"]
+- name:   GitHub
+  url:    https://github.com/TangChr
+  header: "TangChr"
+  lines:  ["Code Repositories","Code Contributions","Organizations"]
 
 - name:   "Will It Compile?"
   url:    http://willitcompile.net
   header: "willitcompile.net"
   lines:  ["Weblog about programming"]
-
-- name:   Skrevetudiet.dk
-  url:    http://skrevetudiet.dk
-  header: Danish Weblog
-  
-- name:   GitHub
-  url:    https://github.com/TangChr
-  header: "TangChr"
-  lines:  ["Code Repositories","Code Contributions","Organizations"]
   
 - name:   About.me
   url:    https://about.me/tangchr
   header: Profile
   
-- name:   Snapchat
-  url:    https://www.snapchat.com/add/tangchr
-  header: "@tangchr"
+- name:   Steam
+  url:    http://steamcommunity.com/id/mekhlin
+  header: "Mekhlin"
+  lines:  ["Achiements","Games","Friends"]
+  
+- name:   Twitter
+  url:    https://twitter.com/Mekhlin
+  header: "@Mekhlin"
+  lines:  ["Secondary Twitter account about gaming"]

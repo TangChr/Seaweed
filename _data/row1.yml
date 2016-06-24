@@ -12,14 +12,14 @@
   header: "@TangChr"
   lines:  ["Timeline","Photos","Friends"]
   
-- name:   LinkedIn
-  url:    http://linkedin.com/in/christiantang
-  lines:  ["Professional Profile","Education","Work","Skills"]
-  
 - name:   Instagram
   url:    http://instagram.com/tangchr
   header: "@tangchr"
   lines:  ["Photos"]
+  
+- name:   LinkedIn
+  url:    http://linkedin.com/in/christiantang
+  lines:  ["Professional Profile","Education","Work","Skills"]
   
 - name:   Google
   url:    https://plus.google.com/+ChristianTangChristensenProfile

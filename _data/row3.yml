@@ -1,8 +1,3 @@
-- name:   Steam
-  url:    http://steamcommunity.com/id/mekhlin
-  header: "Mekhlin"
-  lines:  ["Achiements","Games","Friends"]
-
 - name:   Wikipedia
   url:    https://en.wikipedia.org/wiki/Special:Contributions/TangChr
   header: TangChr
@@ -19,8 +14,7 @@
   url:    http://www.imdb.com/user/ur6002114/ratings
   header: TangChr
   lines:  ["Ratings"]
-        
-- name:   9GAG
-  url:    http://9gag.com/u/tangchr
-  header: tangchr
-  lines: ["Photos","Likes","Comments"]
+  
+- name:   Snapchat
+  url:    https://www.snapchat.com/add/tangchr
+  header: "@tangchr"
