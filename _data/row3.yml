@@ -14,7 +14,3 @@
   url:    http://www.imdb.com/user/ur6002114/ratings
   header: TangChr
   lines:  ["Ratings"]
-  
-- name:   Snapchat
-  url:    https://www.snapchat.com/add/tangchr
-  header: "@tangchr"
