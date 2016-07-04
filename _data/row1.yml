@@ -18,8 +18,9 @@
   lines:  ["Photos"]
   
 - name:   LinkedIn
-  url:    https://pt.linkedin.com/in/christiantang/en
+  url:    https://www.linkedin.com/in/christiantang
   lines:  ["Professional Profile","Education","Work","Skills"]
+  ignore: true
   
 - name:   Google
   url:    https://plus.google.com/+ChristianTangChristensenProfile
