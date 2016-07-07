@@ -8,13 +8,10 @@ url: 'http://seaweed.dk'
 repo:
   name:      'TangChr.github.io'
   github_url: 'https://github.com/TangChr/TangChr.github.io'
-  travis_url: 'https://travis-ci.org/TangChr/TangChr.github.io'
-  travis_svg: 'https://travis-ci.org/TangChr/TangChr.github.io.svg?branch=master'
 
 # Author
 author:
   name: 'Christian Tang Christensen'
-  twitter: TangChr
 
 # Build
 environment: production
