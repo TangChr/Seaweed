@@ -19,7 +19,8 @@
   
 - name:   LinkedIn
   url:    https://www.linkedin.com/in/christiantang
-  lines:  ["Professional Profile","Education","Work","Skills"]
+  header: "in/christiantang"
+  lines:  ["Connections","Work","Skills"]
   ignore: true
   
 - name:   Google
