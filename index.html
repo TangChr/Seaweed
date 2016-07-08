@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<p id="source-code-link"><a href="https://github.com/TangChr/TangChr.github.io" title="View project on GitHub">VIEW ON GITHUB</a></p>
+<div id="github-repo-link-wrapper">
+{% include github_button.html url=site.repo.github_url text='View on GitHub' title='View project on GitHub' %}
+</div>
 {% include note_row.html notes=site.data.row1 %}
 {% include note_row.html notes=site.data.row2 dummies=2 %}
 {% include note_row.html notes=site.data.row3 dummies=4 %}
