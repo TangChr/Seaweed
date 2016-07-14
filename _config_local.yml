@@ -1,5 +1,8 @@
 # Site
 url: http://localhost:4000
+repository: TangChr/TangChr.github.io
 
 # Build
 environment: development
+gems:
+  - jekyll-github-metadata
