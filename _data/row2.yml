@@ -8,10 +8,6 @@
   header: "willitcompile.net"
   lines:  ["Weblog about programming"]
   
-- name:   About.me
-  url:    https://about.me/tangchr
-  header: Profile
-  
 - name:   Steam
   url:    http://steamcommunity.com/id/mekhlin
   header: "Mekhlin"
