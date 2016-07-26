@@ -22,9 +22,3 @@
   header: "in/christiantang"
   lines:  ["Connections","Work","Skills"]
   ignore: true
-  
-- name:   Google
-  url:    https://plus.google.com/+ChristianTangChristensenProfile
-  header: Google+
-  lines:  ["Profile"]
-  rel:    me
