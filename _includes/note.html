@@ -1,6 +1,6 @@
 
 <li>
-    <a href="{{include.content.url}}"{% if include.content.ignore %} data-proofer-ignore{% endif %} title="{% if include.content.title %}{{include.content.title}}{% else %}{{include.content.name}}{% endif %}"{% if include.content.rel %} rel="{{include.content.rel}}"{% endif %}>
+    <a href="{{include.content.url}}"{% if include.content.ignore %} data-proofer-ignore{% endif %} title="{% if include.content.title %}{{include.content.title}}{% else %}{{include.content.name}}{% endif %}">
         <h2>{{include.content.name}}</h2>
         {% if include.content.header %}<p>{{include.content.header}}</p>{% endif %}{% for line in include.content.lines %}
         <p class="small">{{line}}</p>{% endfor %}
