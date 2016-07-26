@@ -1,16 +1,14 @@
+- name:   Twitter
+  url:    https://twitter.com/Mekhlin
+  header: "@Mekhlin"
+  lines:  ["Secondary Twitter account about gaming"]
+  
+- name:   Steam
+  url:    http://steamcommunity.com/id/mekhlin
+  header: "Mekhlin"
+  lines:  ["Achiements","Games","Friends"]
+  
 - name:   Wikipedia
   url:    https://en.wikipedia.org/wiki/Special:Contributions/TangChr
   header: TangChr
   lines:  ["Contributions"]
-
-- name:   TMDb
-  title:  "The Movie Database"
-  url:    https://www.themoviedb.org/account/TangChr
-  header: TangChr
-  lines:  ["Lists", "Reviews"]
-  
-- name:   IMDb
-  title:  "Internet Movie Database"
-  url:    http://www.imdb.com/user/ur6002114/ratings
-  header: TangChr
-  lines:  ["Ratings"]
