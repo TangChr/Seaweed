@@ -22,3 +22,8 @@
   header: "in/christiantang"
   lines:  ["Connections","Work","Skills"]
   ignore: true
+  
+- name:   "Will It Compile?"
+  url:    http://willitcompile.net
+  header: "willitcompile.net"
+  lines:  ["Weblog about programming"]

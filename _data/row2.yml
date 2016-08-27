@@ -2,11 +2,16 @@
   url:    https://github.com/TangChr
   header: "TangChr"
   lines:  ["Code Repositories","Code Contributions","Organizations"]
-
-- name:   "Will It Compile?"
-  url:    http://willitcompile.net
-  header: "willitcompile.net"
-  lines:  ["Weblog about programming"]
+  
+- name:   npm
+  url:    https://www.npmjs.com/~tangchr
+  header: "@tangchr"
+  lines:  ["node.js","npm","JavaScript"]
+  
+- name:   "Travis CI"
+  url:    https://travis-ci.org/TangChr
+  header: "TangChr"
+  lines:  ["Continuous Integration"]
   
 - name:   TMDb
   title:  "The Movie Database"
