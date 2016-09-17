@@ -30,7 +30,6 @@ ul li {
 		-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 		box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 		-moz-transition:-moz-transform .15s linear;
-		-o-transition:-o-transform .15s linear;
 		-webkit-transition:-webkit-transform .15s linear;
 		@include note-style(-6deg, 0, $color1);
 	}
@@ -58,7 +57,6 @@ ul li {
 		-webkit-box-shadow: 8px 8px 5px rgba(0,0,0,.7);
 		-webkit-transform: scale(1.25);
 		-moz-transform: scale(1.25);
-		-o-transform: scale(1.25);
 		position:relative;
 		z-index:5;
 	}
@@ -94,11 +92,4 @@ ul li {
 		-moz-transform: rotate(10deg);
 
 	}
-}
-
-/* GitHub */
-#github-repo-link-wrapper {
-	position: absolute;
-	top: 25px;
-	right: 25px;
 }
