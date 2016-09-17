@@ -3,6 +3,11 @@
   header: "@Mekhlin"
   lines:  ["Secondary Twitter account about gaming"]
   
+- name:   devRant
+  url:    https://www.devrant.io/users/TangChr
+  header: "@TangChr"
+  lines:  ["Rants","Jokes"]
+  
 - name:   Steam
   url:    http://steamcommunity.com/id/mekhlin
   header: "Mekhlin"
