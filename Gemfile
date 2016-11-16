@@ -1,6 +1,6 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-gem 'github-pages'
+gem 'github-pages','>=104', group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 group :test do
