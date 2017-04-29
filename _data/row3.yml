@@ -22,3 +22,4 @@
   url:    "https://mastodon.network/@tang"
   header: "@tang"
   lines:  ["mastodon.network", "Microblogging"]
+  ignore: true
