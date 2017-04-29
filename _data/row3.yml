@@ -19,6 +19,6 @@
   lines:  ["Contributions"]
 
 - name:   Mastodon
-  url:    https://mastodon.network/@tang
+  url:    "https://mastodon.network/@tang"
   header: "@tang"
   lines:  ["mastodon.network", "Microblogging"]
