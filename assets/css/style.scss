@@ -1,11 +1,4 @@
 ---
 ---
-@font-face {
-    font-family: "Reenie Beanie";
-    src: url("{{ site.url | append: site.baseurl }}assets/fonts/beanie.woff") format('woff');
-}
-
-@import "colors",
-        "mixins",
-        "layout",
+@import "master",
         "github-button";
