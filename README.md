@@ -1,4 +1,4 @@
-# [seaweed.dk](http://seaweed.dk) [![Build Status](https://img.shields.io/travis/TangChr/TangChr.github.io.svg?style=flat-square)](https://travis-ci.org/TangChr/TangChr.github.io)
+# [seaweed.dk](http://seaweed.dk) [![Build Status](https://img.shields.io/travis/TangChr/TangChr.github.io.svg)](https://travis-ci.org/TangChr/TangChr.github.io)
 
 Social "Hub" build on [Jekyll](http://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com).
 
