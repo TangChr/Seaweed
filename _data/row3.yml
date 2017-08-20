@@ -17,9 +17,3 @@
   url:    https://en.wikipedia.org/wiki/Special:Contributions/TangChr
   header: TangChr
   lines:  ["Contributions"]
-
-- name:   Mastodon
-  url:    "https://mastodon.network/@tang"
-  header: "@tang"
-  lines:  ["mastodon.network", "Microblogging"]
-  ignore: true
