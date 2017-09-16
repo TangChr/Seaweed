@@ -12,6 +12,10 @@ author:
 # Build
 environment: production
 baseurl: '/'
+sass:
+    load_paths:
+        - "assets/sticky-notes"
+
 exclude:
   - CNAME
   - Gemfile
@@ -20,7 +24,4 @@ exclude:
   - LICENSE
   - serve.cmd
   - vendor
-  
-sass:
-    load_paths:
-        - "_sass/sticky-notes"
+  - "assets/sticky-notes"
