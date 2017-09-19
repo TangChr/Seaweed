@@ -14,7 +14,8 @@ environment: production
 baseurl: '/'
 sass:
     load_paths:
-        - "assets/sticky-notes"
+        - 'assets'
+        - 'assets/sticky-notes'
 
 exclude:
   - CNAME
@@ -24,4 +25,4 @@ exclude:
   - LICENSE
   - serve.cmd
   - vendor
-  - "assets/sticky-notes"
+  - 'assets/sticky-notes'
