@@ -1,0 +1,4 @@
+# Build
+environment: development
+plugins:
+  - jekyll-github-metadata
