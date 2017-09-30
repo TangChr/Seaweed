@@ -9,13 +9,18 @@ repository: TangChr/TangChr.github.io
 author:
   name: 'Christian Tang Christensen'
 
+# Paths
+layouts_dir: 'src/layouts'
+includes_dir: 'src/includes'
+data_dir: 'data'
+sass:
+    load_paths:
+        - 'src/css'
+        - 'assets/sticky-notes'
+
 # Build
 environment: production
 baseurl: '/'
-sass:
-    load_paths:
-        - 'assets'
-        - 'assets/sticky-notes'
 
 exclude:
   - CNAME
@@ -25,4 +30,6 @@ exclude:
   - LICENSE
   - serve.cmd
   - vendor
+  - 'src'
+  - 'data'
   - 'assets/sticky-notes'
