@@ -29,6 +29,7 @@ exclude:
   - README.md
   - LICENSE
   - serve.cmd
+  - serve.ps1
   - vendor
   - 'src'
   - 'data'
