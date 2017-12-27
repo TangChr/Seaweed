@@ -1,3 +1,3 @@
-[submodule "assets/sticky-notes"]
-	path = assets/sticky-notes
+[submodule "res/sticky-notes"]
+	path = res/sticky-notes
 	url = https://github.com/TangChr/sticky-notes

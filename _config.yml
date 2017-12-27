@@ -16,21 +16,20 @@ data_dir: 'data'
 sass:
     load_paths:
         - 'src/css'
-        - 'assets/sticky-notes'
+        - 'res/sticky-notes'
 
 # Build
 environment: production
 baseurl: '/'
 
 exclude:
+  - res
+  - vendor
+  - src
+  - data
   - CNAME
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
-  - serve.cmd
   - serve.ps1
-  - vendor
-  - 'src'
-  - 'data'
-  - 'assets/sticky-notes'
