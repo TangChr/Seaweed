@@ -1,7 +1,7 @@
 # [seaweed.dk](http://seaweed.dk)
 
 [![Build Status][travis_badge]](https://travis-ci.org/TangChr/TangChr.github.io)
-![Downloads][language_badge]
+![Top language][language_badge]
 
 Social "Hub" build on [Jekyll](http://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com).
 
