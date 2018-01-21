@@ -9,23 +9,17 @@ repository: TangChr/TangChr.github.io
 author:
   name: 'Christian Tang Christensen'
 
-# Paths
-layouts_dir: 'src/layouts'
-includes_dir: 'src/includes'
-data_dir: 'data'
-sass:
-    load_paths:
-        - 'src/css'
-        - 'res/sticky-notes'
-
 # Build
 environment: production
 baseurl: '/'
+sass:
+    load_paths:
+        - 'css'
+        - 'res/sticky-notes'
 
 exclude:
   - res
   - vendor
-  - src
   - data
   - CNAME
   - Gemfile
