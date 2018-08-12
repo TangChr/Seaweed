@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/_site": true,
+        "**/.sass-cache": true,
+        "**/Gemfile.lock": true,
+        "**/.DS_Store": true
+    }
+}
