@@ -1,17 +1,12 @@
-- name:   Twitter
-  url:    https://twitter.com/Mekhlin
-  header: "@Mekhlin"
-  lines:  ["Secondary Twitter account about gaming"]
-  
+- name:   Steam
+  url:    http://steamcommunity.com/id/mekhlin
+  header: "Gaming"
+  lines:  ["@Mekhlin"]
+
 - name:   devRant
   url:    https://devrant.com/users/TangChr
   header: "@TangChr"
   lines:  ["Rants","Jokes"]
-  
-- name:   Steam
-  url:    http://steamcommunity.com/id/mekhlin
-  header: "Mekhlin"
-  lines:  ["Achiements","Games","Friends"]
   
 - name:   Wikipedia
   url:    https://en.wikipedia.org/wiki/Special:Contributions/TangChr

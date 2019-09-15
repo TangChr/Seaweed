@@ -1,7 +1,7 @@
 - name:   GitHub
   url:    https://github.com/TangChr
-  header: "TangChr"
-  lines:  ["Code","Repositories","Contributions"]
+  header: "Software development"
+  lines:  ["Source Control"]
   
 - name:   npm
   url:    https://www.npmjs.com/~tangchr
@@ -10,17 +10,16 @@
   
 - name:   "Travis CI"
   url:    https://travis-ci.org/TangChr
-  header: "TangChr"
-  lines:  ["Continuous Integration"]
+  header: "Continuous Integration"
+  lines:  []
+
+- name:   Twitter
+  url:    https://twitter.com/Mekhlin
+  header: "@Mekhlin"
+  lines:  ["Secondary Twitter account about gaming"]
 
 - name:   IMDb
   title:  "Internet Movie Database"
   url:    http://www.imdb.com/user/ur6002114/ratings
-  header: TangChr
+  header: "@TangChr"
   lines:  ["Ratings"]
-  
-- name:   TMDb
-  title:  "The Movie Database"
-  url:    https://www.themoviedb.org/account/TangChr
-  header: TangChr
-  lines:  ["Lists", "Reviews"]

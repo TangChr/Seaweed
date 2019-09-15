@@ -3,6 +3,7 @@
         "**/.git": true,
         "**/_site": true,
         "**/.sass-cache": true,
+        "**/.jekyll-cache": true,
         "**/Gemfile.lock": true,
         "**/.DS_Store": true
     }
