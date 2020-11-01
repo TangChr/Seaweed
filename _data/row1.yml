@@ -1,6 +1,6 @@
-- name:   christiantang.dk
-  url:    http://christiantang.dk
-  lines:  ["Curriculum Vitae"]
+#- name:   christiantang.dk
+#  url:    http://christiantang.dk
+#  lines:  ["Curriculum Vitae"]
   
 - name:   Twitter
   url:    https://twitter.com/TangChr
