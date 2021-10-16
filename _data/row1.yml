@@ -1,7 +1,3 @@
-#- name:   christiantang.dk
-#  url:    http://christiantang.dk
-#  lines:  ["Curriculum Vitae"]
-  
 - name:   Twitter
   url:    https://twitter.com/TangChr
   header: "@TangChr"
@@ -21,7 +17,6 @@
   url:    https://www.linkedin.com/in/christiantang
   header: "in/christiantang"
   lines:  ["Connections","Work","Skills"]
-  ignore: true
   
 - name:   "Will It Compile?"
   url:    http://willitcompile.net

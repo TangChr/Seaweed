@@ -2,21 +2,16 @@
   url:    https://github.com/TangChr
   header: "Software development"
   lines:  ["Source Control"]
-  
-- name:   npm
-  url:    https://www.npmjs.com/~tangchr
-  header: "@tangchr"
-  lines:  ["node.js","npm","JavaScript"]
-  
-- name:   "Travis CI"
-  url:    https://travis-ci.org/TangChr
-  header: "Continuous Integration"
-  lines:  []
 
 - name:   Twitter
   url:    https://twitter.com/Mekhlin
   header: "@Mekhlin"
   lines:  ["Secondary Twitter account about gaming"]
+
+- name:   Steam
+  url:    http://steamcommunity.com/id/mekhlin
+  header: "Gaming"
+  lines:  ["@Mekhlin"]
 
 - name:   IMDb
   title:  "Internet Movie Database"
