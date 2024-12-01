@@ -1,7 +1,7 @@
-- name:   Twitter
-  url:    https://twitter.com/TangChr
-  header: "@TangChr"
-  lines:  ["Primary Twitter account"]
+- name:   Bluesky
+  url:    https://bsky.app/profile/christiantang.bsky.social
+  header: "@christiantang"
+  lines:  ["Primary Bluesky account"]
   
 - name:   Facebook
   url:    https://www.facebook.com/TangChr
